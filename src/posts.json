@@ -1,0 +1,27 @@
+[
+  {
+    "title" : "tutorial belajar langkap react.js",
+    "tags" : ["react","frontend"],
+    "date" : "2023-01-02"
+  },
+  {
+    "title" : "tutorial belajar langkap laravel",
+    "tags" : ["laravel","backend"],
+    "date" : "2023-01-03"
+  },
+  {
+    "title" : "tutorial belajar langkap nuxt.js",
+    "tags" : ["nuxt.js","backend"],
+    "date" : "2023-01-05"
+  },
+  {
+    "title" : "tutorial belajar langkap next.js",
+    "tags" : ["next.js","backend"],
+    "date" : "2023-02-02"
+  },
+  {
+    "title" : "tutorial belajar langkap vue.js",
+    "tags" : ["vue","frontend"],
+    "date" : "2023-01-10"
+  }
+]
