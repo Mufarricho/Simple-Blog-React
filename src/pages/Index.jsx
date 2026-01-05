@@ -1,7 +1,7 @@
 import { useState } from "react";
 import postsData from "../posts.json"
 import Article from "../components/Article";
-import Search from "../components/Search"
+import Serch from "../components/Search"
 
 function Homepage(){
     const [posts,setPosts] = useState(postsData)
@@ -14,12 +14,11 @@ function Homepage(){
     return(
         <>
         <h1>Simple Blog</h1>
-        <Search onSearch={onSearch}/>
+        <Serch onSearch={onSearch} count={posts.length}/>
         {posts.map(({title,tags,date},index)=>(
             <Article {...{title,tags,date}} key={index}/>
         ))}
         </>
     )
 }
-
 export default Homepage;
