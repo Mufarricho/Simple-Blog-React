@@ -1,27 +1,32 @@
 [
   {
-    "title" : "tutorial belajar langkap react.js",
+    "title" : "tutorial belajar lengkap react.js",
     "tags" : ["react","frontend"],
-    "date" : "2023-01-02"
+    "date" : "2023-01-02",
+    "isNew": true
   },
   {
-    "title" : "tutorial belajar langkap laravel",
+    "title" : "tutorial belajar lengkap laravel",
     "tags" : ["laravel","backend"],
-    "date" : "2023-01-03"
+    "date" : "2023-01-03",
+    "isNew": false
   },
   {
-    "title" : "tutorial belajar langkap nuxt.js",
+    "title" : "tutorial belajar lengkap nuxt.js",
     "tags" : ["nuxt.js","backend"],
-    "date" : "2023-01-05"
+    "date" : "2023-01-05",
+    "isNew": true
   },
   {
-    "title" : "tutorial belajar langkap next.js",
+    "title" : "tutorial belajar lengkap next.js",
     "tags" : ["next.js","backend"],
-    "date" : "2023-02-02"
+    "date" : "2023-02-02",
+    "isNew": false
   },
   {
-    "title" : "tutorial belajar langkap vue.js",
+    "title" : "tutorial belajar lengkap vue.js",
     "tags" : ["vue","frontend"],
-    "date" : "2023-01-10"
+    "date" : "2023-01-10",
+    "isNew": false
   }
 ]

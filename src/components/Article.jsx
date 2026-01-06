@@ -1,3 +1,11 @@
+const NewArticle = ({isNew})=>{
+    return isNew && <span>ini artikel Baru!!</span>
+}
+
+const ArticleNew =()=>{
+    return <span>ini baru!!</span>
+}
+
 function Article (props) {
     return  (
         <>
@@ -5,7 +13,8 @@ function Article (props) {
             <small>
                 date : {props.date}, {props.tags.join(", ")}
             </small>
-
+            <NewArticle isNew={props.isNew}/>
+            {props.isNew && <ArticleNew/>}
         </>
     );
 }
